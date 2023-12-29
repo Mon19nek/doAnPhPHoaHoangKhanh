@@ -1,0 +1,120 @@
+body{
+    background-color: rgb(235, 226, 212);
+}
+/* header */
+nav {
+    padding: 15px;
+    width: 100%;
+    display: flex;
+    background: #f1df11;
+  }
+  
+  nav .content-nav {
+    display: flex;
+    line-height: 2rem;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 60%;
+  }
+  
+  nav .content-nav ul {
+    display: flex;
+  }
+  
+  nav .content-nav ul li a {
+    text-decoration: none;
+    color: #43433e;
+    text-transform: uppercase;
+    padding: 0 15px;
+    font-weight: 800;
+  }
+  
+  nav .content-nav ul li a:hover {
+    color: #fff;
+  }
+  
+  .content-nav form {
+    position: relative;
+    margin-top: 15px;
+  }
+  
+  .content-nav form input {
+    border: none;
+    background: #fff;
+    padding: 7px;
+    outline: none;
+    border-radius: 12px;
+  }
+  
+  .content-nav form button {
+    padding: 5px;
+    border-radius: 12px;
+    position: absolute;
+    right: 0;
+    top: 2px;
+    border: none;
+    outline: none;  
+    background: #fff;
+  }
+  .formkhachhang{
+      margin: 20px auto auto 120px;
+  }
+  .formkhachhang button a{
+      text-decoration: none;
+      color: red;
+  }
+  /* Content */
+.content{
+    background-color: white;
+    margin: 20px 20px 20px 20px;
+}
+.tieudethanhtoan{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div.content form{
+    margin-top: 40px;
+    margin-left: 300px;
+}
+div.content form input{
+    width: 500px;
+    height: 30px;
+}
+  /* Content */
+/* footer */
+.footer-item {
+    padding: .5rem 2rem;
+    background: #f1df11;
+    display: flex;
+  
+  }
+  
+  .footer-item .img-footer {
+    align-items: center;
+    display: flex;
+  }
+  
+  .footer-item .img-footer img {
+    width: 100%;
+  }
+  
+  .footer-item .social-footer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
+  }
+  
+  .footer-item .social-footer li a {
+    color: #000000;
+    font-size: 2rem;
+  }
+  
+  .footer-item .social-footer li:last-child {
+    margin-left: .5rem;
+  }
+  /* Footer */

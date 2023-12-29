@@ -1,0 +1,26 @@
+table button{
+    background-color: rgb(38, 0, 255);
+    border: 1px solid rgb(14, 13, 13);
+    border-radius: 5px;
+    color: white;
+}
+table button:hover{
+    background-color: rgb(19, 18, 27);
+    border: 2px solid rgb(240, 220, 220);
+    border-radius: 5px;
+    color: white;
+}
+table{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.formkhachhang{
+    margin-left: 120px;
+    margin-top: 10px;
+}
+.formkhachhang button a{
+    text-decoration: none;
+    color: black;
+}
+.formkhachhang button a:hover{
+    color: white;
+}

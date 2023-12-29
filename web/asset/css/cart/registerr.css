@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(236, 236, 234);
+    margin: 0;
+    padding: 0;
+}
+.mainregister{
+    background-color: white;
+    display: flex;
+}
+.left{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.right{
+    flex: 5;
+    margin-left: 20px;
+    background-color: rgb(122, 187, 240);
+    background-size: 120%;
+}
+.right form{
+    padding-left: 100px ;
+    font-size: 1.3rem;
+}
+.tieude{
+    font-size: 2rem;
+    margin: 10px auto;
+}
+form input{
+    width: 30px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+form input:hover{
+    border: 2px solid black;
+    border-radius: 4px;
+}
+.btn{
+    margin-top: 20px;
+    margin-left: 120px;
+}
+.btn button{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.btn button:hover{
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+.btn button a{
+    text-decoration: none;
+    color: black;
+}
+.btn button a:hover{
+    text-decoration: none;
+    color: white;
+}
+form button{
+    margin-left: 230px;
+    width: 80px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: rgb(17, 175, 223);
+    color: white;
+}
+form button:hover{
+    margin-left: 230px;
+    width: 80px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 4px;
+    color: white;
+    background-color: blue;
+}

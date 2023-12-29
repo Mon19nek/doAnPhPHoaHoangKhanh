@@ -1,0 +1,269 @@
+/* Header */
+
+.header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.btn-hover {
+    background-color: rgb(71, 108, 231);
+    color: white;
+}
+
+.btn-hover:hover {
+    background-color: blue;
+    border: 2px solid rgb(10, 10, 10);
+}
+
+.btn-dangnhap {
+    background-color: rgb(18, 140, 240);
+}
+
+.btn-dangnhap:hover {
+    background-color: rgb(28, 3, 245);
+}
+
+.logo {
+    background-image: url(../img/Home/logo.png);
+    width: 75px;
+    height: 75px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.menu {
+    width: 923px;
+    height: 40px;
+    margin: 0px auto;
+}
+
+ul.root>li {
+    list-style: none;
+    float: left;
+    position: relative;
+}
+
+ul.root>li>a {
+    text-decoration: none;
+    padding: 0px 20px 0px 20px;
+    line-height: 40px;
+    display: block;
+}
+
+ul.root>li>a:hover {
+    background: rgb(235, 245, 236);
+    color: rgb(209, 18, 50);
+    font-size: 1rem;
+    transition: ease-in 0.30s;
+    -moz-transition: ease-in 0.30s;
+    -webkit-transition: ease-in 0.30s;
+}
+
+.menu {
+    flex: 5;
+    font-size: 1rem;
+    color: rgb(153, 0, 255);
+    justify-content: center;
+}
+
+.search {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
+
+.login {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
+
+
+/* End Header */
+
+
+/* Slide */
+
+.slide {
+    width: 1200px;
+    margin: 10px 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+}
+
+.slide:hover .dieuhuong {
+    display: block;
+}
+
+.dieuhuong {
+    position: absolute;
+    top: 40%;
+    padding-left: 15px;
+    display: none;
+}
+
+.dieuhuong img:last-child {
+    position: relative;
+    left: 1060px;
+}
+
+.chuyen-slide {
+    width: 4800px;
+}
+
+.img {
+    float: left;
+}
+
+
+/* End slide */
+
+
+/* Body */
+
+.body {
+    width: 100%;
+    height: auto;
+}
+
+.headerbody {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+}
+
+.headerbody_left {
+    flex: 3;
+    height: auto;
+}
+
+.headerbody_right {
+    margin-top: 3%;
+    flex: 2;
+    height: auto;
+}
+
+.headerbody_left_top {
+    height: auto;
+}
+
+.time_top {
+    color: rgb(110, 6, 247);
+    font-size: 1rem;
+}
+
+.tittle_top {
+    color: crimson;
+    font-size: 1.5rem;
+}
+
+.headerbody_left_bottom {
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.post_top3 {
+    flex: 1;
+    margin: 10px 5px;
+}
+
+.time_top3 {
+    font-size: 0.9rem;
+}
+
+.tittle_top3 {
+    margin: 10px 0px;
+}
+
+.des_topright {
+    font-style: italic;
+}
+
+.post_topright {
+    display: flex;
+}
+
+.img_topright {
+    display: flex;
+}
+
+.content_topright {
+    margin-left: 15px;
+}
+
+
+/* Main Body */
+
+.tittle_post {
+    color: rgb(241, 101, 7);
+    font-size: 1.5rem;
+    margin: 15px 0px;
+}
+
+.mainleft {
+    display: flex;
+    flex: 5;
+}
+
+.category {
+    display: flex;
+}
+
+.category_top {
+    flex: 5;
+}
+
+.mainbody {
+    display: flex;
+}
+
+.mainright {
+    flex: 2;
+    height: auto;
+}
+
+.content_main {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tittle_main {
+    flex: 1;
+}
+
+.time_main {
+    flex: 1;
+}
+
+.des_main {
+    flex: 9;
+    margin: 10px 0;
+    font-style: italic;
+}
+
+
+/* End Main Body */
+
+
+/* End Body */
+
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    color: brown;
+}
+
+.footer {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}

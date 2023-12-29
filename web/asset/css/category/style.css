@@ -1,0 +1,42 @@
+.main{
+    display: flex;
+    margin-top: 50px;
+}
+/* Left */
+.left{
+    flex: 4;
+}
+.category{
+    color: blue;
+    font-size: 2rem;
+}
+/* One post */
+.onepost{
+    height: 230px;
+}
+.postright{
+    margin-left: 10px;
+}
+.tittle{
+    color: brown;
+    padding-top: 3px;
+    margin-left: 5px;
+}
+.content{
+    font-size: 1.2rem;
+    font-style: italic;
+}
+/* Right */
+.right{
+    flex: 1;
+}
+.qc1{
+    display: flex;
+    justify-content: center;
+    margin: 50px 20px;
+}
+.tieude{
+    display: flex;
+    justify-content: center;
+    font: red;
+}

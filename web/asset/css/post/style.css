@@ -1,0 +1,48 @@
+.main{
+    display: flex;
+    margin-top: 50px;
+}
+/* Left */
+.left{
+    flex: 4;
+}
+.tittle{
+    display: flex;
+    justify-content: center;
+    font-size: 1.7rem;
+}
+.note{
+    display: flex;
+    margin: 20px 10px ;
+}
+.tacgia{
+    margin-left: 30px;
+}
+.chu{
+    margin-top: 10px;
+}
+.quoest{
+    font-style: italic;
+}
+.img1{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+.doan1{
+    margin: 0px auto 20px;
+}
+/* Right */
+.right{
+    flex: 1;
+}
+.qc1{
+    display: flex;
+    justify-content: center;
+    margin: 20px 20px;
+}
+
+.tieude{
+    display: flex;
+    justify-content: center;
+}

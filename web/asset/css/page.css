@@ -1,0 +1,55 @@
+/* Bổ sung */
+.mainleft{
+    margin: 20px 0px;
+}
+/* Move */
+.move{
+    display: flex;
+    justify-content: center;
+}
+.move a{
+    text-decoration: none;
+    color: black;
+    margin: 10px 5px;
+    font-size: 1.1rem;
+    padding: 10px;
+}
+a.active{
+    background-color: red;
+    color: white;
+}
+.move a:hover{
+    background-color: rgb(9, 218, 197);
+    color: white;
+    font-size: 1.2rem;
+}
+/* Search */
+.displaysearch{
+    margin: 10px;
+}
+.keyS{
+    font-size: 1.5rem;
+}
+.postSearch{
+    display: flex;
+    margin: 10px 0px;;
+}
+.tittleS{
+    font-size: 1.2rem;
+    margin: 0px 0px 15px 10px;
+}
+.tittleS:hover{
+    color: rgb(228, 78, 8);
+}
+.contentS{
+    font-style: italic;
+    margin-left: 10px;
+}
+
+/* Hover các phần khác */
+.tittle_top:hover, .tittle_topright:hover, .tittle_top3:hover, .tittle_main:hover, .tittle_post a:hover{
+    color: rgb(0, 255, 64);
+}
+.footer a:hover{
+    color: rgba(255, 153, 0, 0.801);
+}
