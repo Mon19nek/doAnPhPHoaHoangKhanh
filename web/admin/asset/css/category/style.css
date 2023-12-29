@@ -1,0 +1,135 @@
+/* Container */
+.container{
+    margin: 0px;
+    padding: 0px;
+}
+/* body{
+    background-image: url(../img/admin/bg.jpg);
+} */
+.container{
+    display: flex;
+}
+/* Sidebar */
+.sidebar{
+    flex: 1;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.dashboard{
+    color: rgb(0, 0, 0);
+}
+.img-dashboard:hover{
+    background-color: rgb(113, 185, 253);
+    color: white;
+}
+.list{
+    margin: 30px 15px;
+}
+.tieude{
+    color: red;
+}
+.tacvu{
+    color: rgb(19, 18, 18);
+}
+.tacvu:hover{
+    background-color: rgb(8, 42, 235);
+    color: white;
+}
+/* Main left */
+.mainleft{
+    flex: 9;
+}
+.header{
+    display: flex;
+    background-color: cadetblue;
+}
+/* Tittle */
+.tittle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(239, 239, 247);
+    background-color: rgb(8, 94, 253);
+    flex: 5;
+    font-size: 1.5rem;
+}
+/* Admin */
+.infoadmin{
+    flex: 1;
+    display: flex;
+}
+.name{
+    margin-top: 35px;
+    margin-left: 3px;
+    color: cornsilk;
+    font-size: 0.8rem;
+}
+/* Thống kê */
+.thongke{
+    display: flex;
+}
+.box{
+    background-color: rgb(37, 70, 218);
+    width: 300px;
+    height: 150px;
+    margin: 10px 20px;
+}
+.boxdai{
+    background-color: rgb(37, 70, 218);
+    width: 430px;
+    height: 150px;
+    margin: 10px 20px;
+}
+.margin-none{
+    margin-left: 0px;
+}
+.sobaiviet{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: rgb(250, 250, 250);
+}
+.tongsobaiviet{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: rgb(250, 250, 250);
+}
+.baivietgannhat{
+    color: rgb(250, 250, 250);
+}
+/* Table-index.php */
+.display table{
+    background-color: rgb(25, 225, 240) ;
+    margin: 30px 20px;
+    border: 1;
+    border-radius: 5px;
+}
+tr td{
+    background-color: rgb(241, 250, 250);
+    font-size: 1.1rem;
+}
+th{
+    padding-left: 0px;
+    font-size: 1.2rem;
+}
+/* Mainbody */
+.mainbody{
+    margin: 20px 300px;
+}
+form div{
+    margin: 0;
+}
+form input{
+    width: 500px;
+    height: 20px;
+}
+textarea{
+    width: 500px;
+    height: 100px;
+}
